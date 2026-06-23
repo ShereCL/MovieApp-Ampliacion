@@ -84,8 +84,6 @@ app/src/main/java/com/example/movieapp/
 4. Configura tu API key de TMDB y tus credenciales de Supabase.
 5. Sincroniza Gradle y ejecuta la app en un emulador o dispositivo físico.
 
-> ⚠️ **Nota de seguridad:** las claves de API (TMDB, Supabase) deben mantenerse fuera del control de versiones, por ejemplo mediante `local.properties` o variables de entorno inyectadas en `BuildConfig`, en lugar de estar escritas directamente en el código fuente.
-
 ## 📌 Estado del proyecto
 
 Proyecto en desarrollo activo como ampliación de funcionalidades sobre la versión base de MovieApp.
