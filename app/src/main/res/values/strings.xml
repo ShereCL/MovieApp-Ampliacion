@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- pantalla inicial -->
+    <string name="bienvenido">¡BIENVENIDO!</string>
+    <string name="mensaje_bienvenido">Hola, %1$s. ¿Has visto ya tu %2$s pendiente %3$s?</string>
+    <string name="configuracion">Configuración</string>
+    <string name="mensaje_config">¡Hola! Para personalizar tu experiencia, puedes configurar tu nombre en los ajustes. ¿Quieres hacerlo ahora?</string>
+    <string name="ir_ajustes">Ir a Ajustes</string>
+    <string name="mas_tarde">Más tarde</string>
+    <string name="add_seguimiento_btn">Añadir seguimiento</string>
+    <string name="aun_no">Aún no</string>
+
+    <!-- Imágenes y descripciones -->
+    <string name="backdrop_image">Imagen de fondo</string>
+    <string name="poster_image">Póster</string>
+    <string name="poster">poster</string>
+
+    <!-- titulo menus -->
+    <string name="peliculas">Películas</string>
+    <string name="series">Series</string>
+    <string name="explorar">Explorar</string>
+    <string name="pendientes">Pendientes</string>
+    <string name="seguimiento">Seguimiento</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="detalle">Detalles</string>
+
+    <!-- Detalles de películas/series -->
+    <string name="sinopsis">Sinopsis</string>
+    <string name="sinopsisDefecto">Sinopsis de la pelicula o serie no disponible</string>
+    <string name="tituloPeli">Título de la Película</string>
+    <string name="titulo">Título de la serie o película</string>
+    <string name="ejemplosGenero">Acción | Aventura | Comedia</string>
+    <string name="ejemploFecha">27-01-26</string>
+    <string name="anio">2025</string>
+    <string name="ejemploPuntuacion">8.5/10</string>
+    <string name="verTrailer">▶ Ver Trailer</string>
+    <string name="yaEnPendientes">Ya está en pendientes</string>
+
+    <!-- Pendientes -->
+    <string name="add_pendientes">Añadir a pendientes</string>
+    <string name="listEmpty">¡Tu lista por ver está vacía!</string>
+    <string name="notPelis">Añade peliculas y series que te gustaría ver</string>
+    <string name="verPelis">Ver todas las películas</string>
+
+    <!-- Seguimiento -->
+    <string name="addSeguimiento">Agregar seguimiento</string>
+    <string name="notSeguimiento">Sin seguimientos</string>
+    <string name="sinSeguimientoFrase">No has añadido ningún seguimiento</string>
+    <string name="pulsarButton">Pulsa el botón + para añadir tu primer seguimiento</string>
+    <string name="filtros">Filtros</string>
+    <string name="buscarSeguimiento">Buscar por título...</string>
+    <string name="ordenarSeguimiento">Ordenar:</string>
+    <string name="rangoFechas">Rango de fechas</string>
+    <string name="desdeFecha">Desde</string>
+    <string name="hastaFecha">Hasta</string>
+    <string name="rangoPuntuacionSeguimiento">Rango de puntuación</string>
+    <string name="guion"> — </string>
+    <string name="limpiar">Limpiar</string>
+    <string name="aplicar">Aplicar</string>
+    <string name="max">Max:</string>
+    <string name="min">Mín:</string>
+    <string name="flecha">→</string>
+    <string name="filtrosBtn">Filtros</string>
+    <string name="posterSeguimiento">Poster</string>
+    <string name="tituloSeguimiento">Título</string>
+    <string name="seguimientoTitulo">Seguimiento</string>
+    <string name="fechaMasReciente">Fecha: más reciente</string>
+    <string name="filtrosAvanzados">FILTROS AVANZADOS</string>
+
+
+    <!-- Fragment Add Seguimiento -->
+    <string name="nuevoSeguimiento">Nuevo Seguimiento</string>
+    <string name="tipoContenido">Tipo de contenido</string>
+    <string name="opcionPelicula">🎬 Película</string>
+    <string name="opcionSerie">📺 Serie</string>
+    <string name="buscarTitulo">Buscar título</string>
+    <string name="hintBusqueda">Escribe el título…</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="fechaVisualizacion">Fecha de visualización</string>
+    <string name="seleccionarFecha">Seleccionar fecha</string>
+    <string name="fechaNoSeleccionada">No seleccionada</string>
+    <string name="puntuacion">Puntuación</string>
+    <string name="puntuacionDefecto">0.0/5</string>
+    <string name="imagenRecuerdo">Imagen de recuerdo</string>
+    <string name="opcional">(opcional)</string>
+    <string name="tocarAnadirImagen">Toca para añadir imagen</string>
+    <string name="guardarSeguimiento">GUARDAR SEGUIMIENTO</string>
+    <string name="vistaPreviewRecuerdo">Vista previa de imagen de recuerdo</string>
+    <string name="eliminarImagen">Eliminar imagen</string>
+
+    <!-- Fragment Detalle Seguimiento -->
+    <string name="tituloDefault">Título</string>
+    <string name="fechaDefault">01/01/2024</string>
+    <string name="puntuacionDefault">4.5/5</string>
+    <string name="eliminarSeguimiento">Eliminar seguimiento</string>
+
+    <!-- Item Seguimiento -->
+    <string name="posterDesc">Poster</string>
+    <string name="fechaDesc">Fecha</string>
+    <string name="app_name">MovieApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- <string name="hello_blank_fragment">Detalle</string> -->
+    <!-- <string name="posterDescripcion">Poster de película o serie</string> -->
+    <!-- <string name="iconFecha">Icono de fecha</string> -->
+
+    <!-- Ajustes -->
+    <string name="gestionAjustes">Gestión de Ajustes de la App</string>
+    <string name="nameUser">Nombre de usuario</string>
+    <string name="hintName">Escribe aquí tu nombre</string>
+    <string name="idioma">Idioma preferido</string>
+    <string name="wifi">Cargar imágenes solo con Wi-Fi</string>
+    <string name="theme">Tema de la app</string>
+    <string name="themeDark">🌚 Modo oscuro</string>
+    <string name="themeLigth">🌞 Modo claro</string>
+    <string name="guardarCambios">Guardar cambios</string>
+    <string name="resetPrefs">Resetear preferencias</string>
+    <string name="fotoPerfilAjustes">Foto de perfil</string>
+    <string name="cambiarFoto">Toca para cambiar</string>
+
+
+    <!-- Arrays de idiomas -->
+    <string-array name="opcionLanguage">
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Francés</item>
+        <item>Italiano</item>
+        <item>Portugués</item>
+    </string-array>
+    <string-array name="apiLanguage">
+        <item>es-ES</item>
+        <item>en-US</item>
+        <item>fr-FR</item>
+        <item>it-IT</item>
+        <item>pt-PT</item>
+    </string-array>
+
+
+    <!-- Login y registro -->
+    <string name="login">Login</string>
+    <string name="register">Registro</string>
+    <string name="registrate">Registrate</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="msgRegister">Regístrate para comenzar</string>
+    <string name="msgCorreo">Correo electrónico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="helpContraseña">Mínimo 8 caracteres</string>
+    <string name="confirmContraseña">Confirmar contraseña</string>
+    <string name="creaCuenta">Crear cuenta</string>
+    <string name="oRegistrate">o registrarse con</string>
+    <string name="registerGoogle">Continuar con Google</string>
+    <string name="yaTienesCuenta">¿Ya tienes cuenta? </string>
+    <string name="iniciarSesion">Inicia sesión</string>
+    <string name="accedeCuenta">Accede a tu cuenta</string>
+    <string name="passwordOlvidada">¿Has olvidado tu contraseña?</string>
+    <string name="noTienesCuenta">¿No tienes cuenta? </string>
+    <string name="fotoPerfil">Foto de perfil (opcional)</string>
+
+    <!-- comentarios -->
+    <string name="descripcionAvatar">Avatar usuario</string>
+    <string name="recuentoComent">Comentarios (0)</string>
+    <string name="escribeComentario">Escribe un comentario...</string>
+    <string name="publicar">Publicar</string>
+    <string name="sinComentarios">Aún no hay comentarios. ¡Publica el primero!</string>
+
+    <!-- Personas -->
+    <string name="fotoDePerfil">Foto de perfil</string>
+    <string name="personas">Personas</string>
+    <string name="buscarPersona">Buscar actor o director...</string>
+    <string name="buscaPersonaHint">Escribe un nombre para buscar</string>
+
+    <!-- Perfil -->
+
+    <string name="perfilActualizado">Perfil actualizado</string>
+    <string name="perfil">Perfil</string>
+    <string name="escribeSobreTi">Escribe algo sobre ti...</string>
+    <string name="guardarCambiosPerfil">Guardar cambios</string>
+    <string name="puntuacionMedia">⭐ Puntuación media</string>
+    <string name="mesMasActivo">Mes más activo</string>
+    <string name="generoMasVisto">Género más visto</string>
+    <string name="actividadPorMes">Actividad por mes</string>
+    <string name="noDisponible">—</string>
+    <string name="totalVisto">🎬 Total visto</string>
+    <string name="cantidadPeliculas">pelis: %d</string>
+    <string name="separadorMedia">  ·  </string>
+    <string name="cantidadSeries">series: %d</string>
+    <string name="sinDatosAun">Sin datos aún</string>
+    <string name="pelisGraficos">pelis</string>
+    <string name="seriesGraficos">series</string>
+
+    <!-- Detalles de personas -->
+    <string name="foto">Foto</string>
+    <string name="guardarEnFav">☆ Guardar en favoritos</string>
+    <string name="bio">Biografía</string>
+    <string name="conocidoPor">Conocido por</string>
+    <string name="posterPersona">Poster</string>
+    <string name="sinBiografia">Sin biografía disponible.</string>
+    <string name="nacimiento">Nacimiento: </string>
+
+    <!-- Favoritos -->
+    <string name="enFavoritos">★ En favoritos</string>
+    <string name="eliminadoFavoritos">Eliminado de favoritos</string>
+    <string name="guardadoFavoritos">Guardado en favoritos</string>
+
+    <!-- Toast -->
+
+    <string name="error">Error: </string>
+    <string name="default_web_client_id">112107707474-cs6bd93flhk5uousrcejv37om7tdgkrc.apps.googleusercontent.com</string>
+
+    <!-- Arrays de meses -->
+    <string-array name="mesesAbreviados">
+        <item>Ene</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dic</item>
+    </string-array>
+
+    <string-array name="mesesCompletos">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+
+    <string name="sinPuntuaciones">Sin puntuaciones</string>
+    <string name="peliculasEmoji">Películas 🎬</string>
+    <string name="seriesEmoji">Series 📺</string>
+    <string name="vistoEn">Visto en %1$d</string>
+    <!-- Filtros personas -->
+    <string name="departamento">Departamento</string>
+    <string name="todos">Todos</string>
+    <string name="acting">Interpretación</string>
+    <string name="directing">Dirección</string>
+    <string name="writing">Guion</string>
+    <string name="production">Producción</string>
+    <string name="ordenarPor">Ordenar por</string>
+    <string name="relevancia">Relevancia</string>
+    <string name="nombreAZ">Nombre A–Z</string>
+    <string name="nombreZA">Nombre Z–A</string>
+
+    <string name="fechaNacimientoLabel">Fecha de nacimiento</string>
+    <string name="lugarNacimientoLabel">Lugar de nacimiento</string>
+    <string name="leerMas">Leer más</string>
+    <string name="leerMenos">Leer menos</string>
+    <string name="personasFavoritas">Personas favoritas</string>
+    <string name="sinFavoritos">Aún no tienes favoritos</string>
+    <string name="recomendaciones">Recomendaciones para ti</string>
+    <string name="recomendacionesDesc">Basadas en tu historial guardado</string>
+    <string name="proximamente">Próximamente</string>
+
+
+    <string name="errorDesconocido">Error desconocido.</string>
+    <string name="usuarioNoAutenticado">Usuario no autenticado</string>
+
+    <string name="generoAccion">Acción</string>
+    <string name="generoAventura">Aventura</string>
+    <string name="generoAnimacion">Animación</string>
+    <string name="generoComedia">Comedia</string>
+    <string name="generoCrimen">Crimen</string>
+    <string name="generoDocumental">Documental</string>
+    <string name="generoDrama">Drama</string>
+    <string name="generoFamilia">Familia</string>
+    <string name="generoFantasia">Fantasía</string>
+    <string name="generoHistoria">Historia</string>
+    <string name="generoTerror">Terror</string>
+    <string name="generoMusica">Música</string>
+    <string name="generoMisterio">Misterio</string>
+    <string name="generoRomance">Romance</string>
+    <string name="generoCienciaFiccion">Ciencia ficción</string>
+    <string name="generoPeliculaTv">Película de TV</string>
+    <string name="generoSuspense">Suspense</string>
+    <string name="generoBelica">Bélica</string>
+    <string name="generoWestern">Western</string>
+
+    <string name="sinGenero">Sin género</string>
+    <string name="comentariosTitulo">Comentarios (%1$d)</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="entendido">Entendido</string>
+
+    <string name="errorEmailVacio">El correo no puede estar vacío</string>
+    <string name="errorEmailArroba">El correo debe contener @</string>
+    <string name="errorEmailArrobaVacio">El texto antes y después de @ no puede estar vacío</string>
+    <string name="errorEmailPunto">Debe contener al menos un punto después del @</string>
+    <string name="errorEmailFormato">Formato de correo inválido</string>
+
+    <string name="errorPasswordVacia">La contraseña no puede estar vacía</string>
+    <string name="errorPasswordCorta">La contraseña debe tener al menos 8 caracteres</string>
+    <string name="errorPasswordLetra">La contraseña debe contener al menos una letra</string>
+    <string name="errorPasswordNumero">La contraseña debe contener al menos un número</string>
+    <string name="errorPasswordInvalida">Contraseña inválida</string>
+
+    <string name="errorEmailValido">Introduce un email válido</string>
+    <string name="errorTokenGoogle">No se pudo obtener el token en Google</string>
+    <string name="errorCorreoObligatorio">El correo es obligatorio.</string>
+    <string name="errorPasswordObligatoria">La contraseña es obligatoria.</string>
+    <string name="errorCredenciales">Credenciales incorrectas. Verifica tus datos o regístrate</string>
+
+    <string name="hintEmail">Introduce tu email</string>
+    <string name="restablecerPassword">Restablecer contraseña</string>
+    <string name="enviar">Enviar</string>
+    <string name="emailRestablecerEnviado">Se ha enviado un email para restablecer tu contraseña</string>
+    <string name="loginGoogleCancelado">Login con Google cancelado.</string>
+    <string name="errorCuentaGoogle">No se pudo obtener la cuenta de Google.</string>
+    <string name="errorGoogleSignIn">Error Google Sign-In: </string>
+
+    <string name="errorNombreObligatorio">El nombre es obligatorio</string>
+    <string name="errorConfirmarPassword">Debes confirmar tu contraseña</string>
+    <string name="errorPasswordNoCoinciden">Las contraseñas no coinciden</string>
+    <string name="errorSubirFotoRegistrarSinElla">Error al subir foto, se registrará sin ella</string>
+
+    <string name="errorPermisoDenegado">Permiso denegado. No se puede seleccionar imagen.</string>
+    <string name="msgSeguimientoGuardadoExitoso">Seguimiento guardado correctamente</string>
+    <string name="msgDatosPrecargados">Datos precargados. Selecciona fecha y puntuación.</string>
+    <string name="errorEscribeUnTitulo">Escribe un título</string>
+    <string name="errorNoResultadosEncontrados">No se encontraron resultados</string>
+    <string name="errorSeleccionaPeliculaOSerie">Selecciona una película o serie</string>
+    <string name="errorSeleccionaFechaVisualizacion">Selecciona una fecha de visualización</string>
+    <string name="errorAsignaPuntuacion">Asigna una puntuación</string>
+    <string name="errorYaExisteSeguimientoPelicula">Ya existe un seguimiento de esta película</string>
+    <string name="errorYaExisteSeguimientoSerie">Ya existe un seguimiento de esta serie</string>
+
+    <string name="msgFotoActualizada">Foto actualizada. Pulsa Guardar para confirmar.</string>
+    <string name="msgErrorSubirFoto">Error al subir la foto</string>
+    <string name="msgPreferenciasGuardadas">Preferencias guardadas</string>
+    <string name="msgPreferenciasRestablecidas">Preferencias restablecidas</string>
+
+    <string name="labelFecha">Fecha: %1$s</string>
+    <string name="labelPuntuacion">⭐ %1$.1f/10</string>
+    <string name="errorAbrirTrailer">Error al abrir el trailer</string>
+
+    <string name="errorCargarSeguimiento">Error al cargar el seguimiento</string>
+    <string name="errorNoEncontradoSeguimiento">No se encontró el seguimiento</string>
+    <string name="formatoPuntuacionCinco">%.1f/5</string>
+    <string name="dialogoEliminarTitulo">Eliminar seguimiento</string>
+    <string name="dialogoEliminarMensaje">¿Estás seguro de que quieres eliminar este seguimiento?</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="msgSeguimientoEliminado">Seguimiento eliminado</string>
+
+    <string name="msgPeliculaAnadidaPendientes">%1$s añadido a pendientes</string>
+    <string name="errorCargaPeliculas">Error: %1$s</string>
+
+    <string name="msgElementoEliminado">%1$s eliminado</string>
+
+    <string name="tabPerfil">Perfil</string>
+    <string name="tabEstadisticas">Estadísticas</string>
+    <string name="dialogoEditarBioTitulo">Editar biografía</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnCancelar">Cancelar</string>
+
+    <string name="errorFechaPosterior">La fecha \'desde\' no puede ser posterior a \'hasta\'</string>
+    <string name="errorRangoPuntuacion">La puntuación mínima no puede ser mayor que la máxima</string>
+    <string name="hintPuntuacionMinima">Puntuación mínima</string>
+    <string name="hintPuntuacionMaxima">Puntuación máxima</string>
+    <string name="labelSinLimite">Sin límite</string>
+    <string name="opcionOrdenFechaReciente">Fecha: más reciente</string>
+    <string name="opcionOrdenFechaAntigua">Fecha: más antigua</string>
+    <string name="opcionOrdenPuntuacionMayor">Puntuación: mayor a menor</string>
+    <string name="opcionOrdenPuntuacionMenor">Puntuación: menor a mayor</string>
+
+    <string name="msgSerieAnadidaPendientes">%1$s añadida a pendientes</string>
+    <string name="errorCargaSeries">Error: %1$s</string>
+    <string name="sinDescripcion">Sin descripción</string>
+
+    <string name="deptActing">Interpretación</string>
+    <string name="deptDirecting">Dirección</string>
+    <string name="deptWriting">Guion</string>
+    <string name="deptProduction">Producción</string>
+    <string name="deptEditing">Edición</string>
+    <string name="deptSound">Sonido</string>
+    <string name="deptCamera">Fotografía</string>
+    <string name="deptArt">Arte</string>
+
+    <string name="tipoPelicula">PELÍCULA</string>
+    <string name="tipoSerie">SERIE</string>
+
+    <string name="errorSubirImagen">Error al subir imagen</string>
+    <string name="errorProcesarImagen">Error al procesar imagen</string>
+    <string name="puntuacionMayusculas">PUNTUACIÓN</string>
+    <string name="imgRecuerdo">IMAGEN DE RECUERDO</string>
+
+    <string name="correoEjemplo">correo@ejemplo.com</string>
+    <string name="ejemploPassword">••••••••</string>
+
+    <string name="bioAdd">Añade una bio...</string>
+    <string name="nombreUsuario">Nombre de usuario</string>
+    <string name="tuNombreDeUsuario">Tu nombre de usuario</string>
+    <string name="repitePassword">Repite tu contraseña</string>
+    <string name="crearCuenta">Crear cuenta</string>
+
+</resources>

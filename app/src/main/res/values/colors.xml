@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Básicos -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="negroIconos">#000000</color>
+    <color name="negroSecundario">#44000000</color>
+
+    <!-- Fondo principal — base de toda la app -->
+    <color name="fondoGrisClaro">#FDFCF7</color>
+    <color name="fondoToolbar">#FDFCF7</color>
+    <color name="fondoToolbarAmarillo">#FDFCF7</color>
+
+    <color name="textoToolbar">#1F1F1F</color>
+    <color name="flechaBack">#1F1F1F</color>
+    <color name="bordeInputSutil">#FFD9D9D9</color>
+
+    <!-- Degradados -->
+    <color name="amarilloDoradoDegradado">#EDB637</color>
+    <color name="fondoClaro50">#80FFE082</color>
+    <color name="fondoClaroTransparente">#00FDFCF7</color>
+
+    <!-- Acentos -->
+    <color name="colorBotonPendientes">#EDB637</color>
+    <color name="amarilloDorado">#EDB637</color>
+    <color name="amarilloSecundario">#FFE082</color>
+    <color name="fondoAmarilloClaro">#FFF3D0</color>
+    <color name="colorFondoSeleccion">#FFF3D0</color>
+
+    <!-- Textos -->
+    <color name="textoOscuro">#1F1F1F</color>
+    <color name="textoNegro">#212121</color>
+    <color name="textoGrisMedio">#757575</color>
+    <color name="textoGrisClaro">#9E9E9E</color>
+    <color name="sinopsisColor">#333333</color>
+
+    <!-- Bottom Navigation -->
+    <color name="colorFondoMenu">#FFFFFF</color>
+    <color name="colorBottomNavText">#1F1F1F</color>
+    <color name="colorBottomNavIcon">#EDB637</color>
+    <color name="navegacionMenu">#9E9E9E</color>
+    <color name="tituloMenuNav">#FFFFFF</color>
+    <color name="lineaMenu">#E0E0E0</color>
+
+    <!-- Cards y superficies -->
+    <color name="fondoBlanco">#FFFFFF</color>
+    <color name="colorFondoMiniatura">#666666</color>
+    <color name="colorSinopsisCard">#444444</color>
+    <color name="surfaceColor">#FFFFFF</color>
+
+    <!-- Iconos y secundarios -->
+    <color name="grisIcono">#BDBDBD</color>
+    <color name="naranjaPendientes">#FF9800</color>
+    <color name="colorPuntuacion">#EDB637</color>
+
+    <color name="amarilloFondo">#E6EDB637</color>
+
+    <!-- Alertas -->
+    <color name="rojoEliminar">#D32F2F</color>
+
+    <!-- Nav secundaria -->
+    <color name="textColorNavSec">#757575</color>
+
+    <color name="fondoDoradoClaro">#FDF3E3</color>
+    <color name="blancoApp">#FFFFFF</color>
+    <color name="verdeEstadisticas">#2E7D32</color>
+
+    <color name="cremaClaro">#FAFAFA</color>
+
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- BottomNavigationView secundario -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationViewExplorar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.BottomNavigationView"
+        app:menu="@menu/menu_bottom_explorar"
+        app:labelVisibilityMode="labeled"
+        app:itemTextAppearanceActive="@style/BottomNavTextActive"
+        app:itemTextAppearanceInactive="@style/BottomNavTextInactive"
+        app:itemTextColor="@color/bottom_nav_text_color"
+        app:itemBackground="@drawable/bottom_nav_background"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@color/colorFondoMenu"/>
+
+    <!-- Contenedor con padding inferior -->
+    <FrameLayout
+        android:id="@+id/explorar_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="56dp"
+        android:clipToPadding="false"/>
+
+</LinearLayout>

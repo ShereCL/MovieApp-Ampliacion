@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/explorarFragment">
+
+    <!-- ========== PANTALLAS PRINCIPALES (Bottom Navigation) la lié, se lo pedí a la ia que me lo arreglara ========== -->
+
+    <!-- Explorar (contenedor de Películas y Series) -->
+    <fragment
+        android:id="@+id/explorarFragment"
+        android:name="com.example.movieapp.ui.detail.ExplorarFragment"
+        android:label="@string/explorar"
+        tools:layout="@layout/fragment_explorar">
+        <action
+            android:id="@+id/action_explorarFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+        <action
+            android:id="@+id/action_explorarFragment_to_ajustesFragment"
+            app:destination="@id/ajustesFragment" />
+        <action
+            android:id="@+id/action_explorarFragment_to_detallePersonaFragment"
+            app:destination="@id/detallePersonaFragment" />
+    </fragment>
+
+    <!-- Pendientes -->
+    <fragment
+        android:id="@+id/pendientesFragment"
+        android:name="com.example.movieapp.ui.detail.PendientesFragment"
+        android:label="@string/pendientes"
+        tools:layout="@layout/fragment_pendientes">
+        <action
+            android:id="@+id/action_pendientesFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+        <action
+            android:id="@+id/action_pendientesFragment_to_explorarFragment"
+            app:destination="@id/explorarFragment" />
+        <action
+            android:id="@+id/action_pendientesFragment_to_ajustesFragment"
+            app:destination="@id/ajustesFragment" />
+    </fragment>
+
+    <!-- Seguimiento -->
+    <fragment
+        android:id="@+id/seguimientoFragment"
+        android:name="com.example.movieapp.ui.detail.SeguimientoFragment"
+        android:label="@string/seguimiento"
+        tools:layout="@layout/fragment_seguimiento">
+        <action
+            android:id="@+id/action_seguimientoFragment_to_addSeguimientoFragment"
+            app:destination="@id/addSeguimientoFragment" />
+        <action
+            android:id="@+id/action_seguimientoFragment_to_detalleSeguimientoFragment"
+            app:destination="@id/detalleSeguimientoFragment" />
+        <action
+            android:id="@+id/action_seguimientoFragment_to_ajustesFragment"
+            app:destination="@id/ajustesFragment" />
+    </fragment>
+
+    <!-- ========== PANTALLAS DE DETALLE ========== -->
+
+    <!-- Detalle de Película/Serie -->
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="com.example.movieapp.ui.detail.DetalleFragment"
+        android:label="@string/detalle"
+        tools:layout="@layout/fragment_detalle" />
+
+    <!-- Añadir Seguimiento -->
+    <fragment
+        android:id="@+id/addSeguimientoFragment"
+        android:name="com.example.movieapp.ui.detail.AddSeguimientoFragment"
+        tools:layout="@layout/fragment_add_seguimiento" />
+
+    <!-- Detalle de Seguimiento -->
+    <fragment
+        android:id="@+id/detalleSeguimientoFragment"
+        android:name="com.example.movieapp.ui.detail.DetalleSeguimientoFragment"
+        tools:layout="@layout/fragment_detalle_seguimiento" />
+    <fragment
+        android:id="@+id/ajustesFragment"
+        android:name="com.example.movieapp.ui.detail.AjustesFragment"
+        android:label="@string/ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+    <fragment
+        android:id="@+id/personasFragment"
+        android:name="com.example.movieapp.ui.detail.PersonasFragment"
+        android:label="fragment_personas"
+        tools:layout="@layout/fragment_personas" />
+    <fragment
+        android:id="@+id/detallePersonaFragment"
+        android:name="com.example.movieapp.ui.detail.DetallePersonaFragment"
+        android:label="@string/detalle"
+        tools:layout="@layout/fragment_detalle_persona" >
+        <action
+            android:id="@+id/action_detallePersonaFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.movieapp.ui.detail.PerfilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfilFragment_to_ajustesFragment"
+            app:destination="@id/ajustesFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_detallePersonaFragment"
+            app:destination="@id/detallePersonaFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/estadisticasFragment"
+        android:name="com.example.movieapp.ui.detail.EstadisticasFragment"
+        android:label="fragment_estadisticas"
+        tools:layout="@layout/fragment_estadisticas" />
+    <fragment
+        android:id="@+id/tabPerfilFragment"
+        android:name="com.example.movieapp.ui.detail.TabPerfilFragment"
+        android:label="fragment_tab_perfil"
+        tools:layout="@layout/fragment_tab_perfil" >
+        <action
+            android:id="@+id/action_tabPerfilFragment_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+
+</navigation>

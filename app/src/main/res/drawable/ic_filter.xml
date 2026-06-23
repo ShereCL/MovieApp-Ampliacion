@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Línea superior con círculo izquierda -->
+    <path
+        android:strokeColor="@color/colorBotonPendientes"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,6 L20,6"/>
+    <path
+        android:strokeColor="@color/colorBotonPendientes"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#33D4A017"
+        android:pathData="M8,6 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <!-- Línea central con círculo derecha -->
+    <path
+        android:strokeColor="@color/colorBotonPendientes"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,12 L20,12"/>
+    <path
+        android:strokeColor="@color/colorBotonPendientes"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#33D4A017"
+        android:pathData="M14,12 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+    <!-- Línea inferior con círculo izquierda -->
+    <path
+        android:strokeColor="@color/colorBotonPendientes"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,18 L20,18"/>
+    <path
+        android:strokeColor="@color/colorBotonPendientes"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#33D4A017"
+        android:pathData="M8,18 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"/>
+
+</vector>

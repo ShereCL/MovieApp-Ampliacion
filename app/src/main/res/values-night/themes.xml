@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- ESTE CAMBIO DE TEMAS SE LO HE PEDIDO A LA IA QUE TIENE MEJOR GUSTO QUE YO -->
+
+    <!-- Colores básicos -->
+    <color name="white">#121212</color>
+
+    <!-- Toolbar -->
+    <color name="fondoToolbar">#2D2F36</color>
+    <color name="flechaBack">#FFFFFF</color>
+    <color name="textoToolbar">#FFFFFF</color>
+
+    <!-- Texto -->
+    <color name="sinopsisColor">#E0E0E0</color>
+    <color name="tituloMenuNav">#FFFFFF</color>
+
+    <!-- Puntuación -->
+    <color name="colorPuntuacion">#FFC107</color>
+
+    <!-- Cards -->
+    <color name="colorFondoMiniatura">#444444</color>
+    <color name="colorSinopsisCard">#666666</color>
+
+    <!-- Botones -->
+    <color name="colorBotonPendientes">#EDB637</color>
+
+    <!-- Bottom Navigation -->
+    <color name="colorFondoMenu">#121212</color>
+    <color name="colorBottomNavText">#FFFFFF</color>
+    <color name="navegacionMenu">#AAAAAA</color>
+    <color name="lineaMenu">#333333</color>
+
+    <!-- Fondos -->
+    <color name="fondoGrisClaro">#1E1E1E</color>
+    <color name="fondoAmarilloClaro">#333300</color>
+    <color name="fondoBlanco">#121212</color>
+
+    <!-- Textos -->
+    <color name="textoNegro">#FFFFFF</color>
+    <color name="textoGrisMedio">#BDBDBD</color>
+    <color name="textoGrisClaro">#888888</color>
+    <color name="naranjaPendientes">#FF9800</color>
+
+    <!-- Acentos -->
+    <color name="amarilloDorado">#EDB637</color>
+    <color name="amarilloSecundario">#FFE082</color>
+    <color name="grisIcono">#BDBDBD</color>
+
+    <!-- Alertas -->
+    <color name="rojoEliminar">#D32F2F</color>
+
+    <color name="black">#FFFFFF</color>
+
+    <color name="surfaceColor">#1E1E1E</color>
+    <color name="textColorNavSec">#C199D6</color>
+    <color name="colorBottomNavIcon">#EDB637</color>
+    <color name="colorFondoSeleccion">#333300</color>
+
+</resources>

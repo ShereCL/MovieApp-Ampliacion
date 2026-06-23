@@ -1,0 +1,102 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MovieApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorControlActivated">@color/colorBotonPendientes</item>
+        <item name="alertDialogTheme">@style/CustomAlertDialog</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+        <item name="android:dropDownListViewStyle">@style/SpinnerDropDownList</item>
+        <item name="android:spinnerStyle">@style/SpinnerOrden</item>
+        <item name="colorPrimary">@color/amarilloDorado</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/fondoAmarilloClaro</item>
+        <item name="colorOnPrimaryContainer">@color/textoOscuro</item>
+
+        <item name="colorSurface">@color/fondoBlanco</item>
+        <item name="colorOnSurface">@color/textoNegro</item>
+        <item name="colorSurfaceVariant">@color/fondoGrisClaro</item>
+        <item name="colorOnSurfaceVariant">@color/textoGrisMedio</item>
+
+        <item name="android:colorBackground">@color/fondoGrisClaro</item>
+        <item name="colorOutline">@color/lineaMenu</item>
+
+    </style>
+
+    <style name="Theme.MovieApp" parent="Base.Theme.MovieApp" />
+
+    <!-- Estilo de cada fila en el desplegable -->
+    <style name="SpinnerDropDownItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:layout">@layout/item_spinner_dropdown</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/textoOscuro</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <!-- Estilo del ListView del popup -->
+    <style name="SpinnerDropDownList" parent="android:Widget.ListView.DropDown">
+        <item name="android:background">@drawable/bg_spinner_popup</item>
+        <item name="android:divider">@color/fondoGrisClaro</item>
+        <item name="android:dividerHeight">0.5dp</item>
+    </style>
+
+    <!-- Estilos del AlertDialog -->
+    <style name="CustomAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:background">@color/colorFondoMenu</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_width</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_width</item>
+        <item name="android:textColorPrimary">@color/textoNegro</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeDialog</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DialogBotonPositivo</item>
+        <item name="buttonBarNegativeButtonStyle">@style/DialogBotonNegativo</item>
+    </style>
+
+    <style name="ShapeDialog">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="DialogBotonPositivo" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/amarilloDorado</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DialogBotonNegativo" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/textoGrisMedio</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="PositiveButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/amarilloDorado</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/textoGrisMedio</item>
+    </style>
+
+    <style name="RoundedPoster">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="SpinnerOrden" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@null</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <!-- Estilos de los filtros -->
+    <style name="Widget.MovieApp.Chip.Filter" parent="Widget.Material3.Chip.Filter">
+        <item name="checkedIconVisible">false</item>
+        <item name="chipBackgroundColor">@color/chip_filter_bg</item>
+        <item name="android:textColor">@color/chip_filter_text</item>
+        <item name="chipStrokeColor">@color/chip_filter_bg</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="TransparentCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="rippleColor">@android:color/transparent</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

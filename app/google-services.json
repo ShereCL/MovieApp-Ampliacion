@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "112107707474",
+    "project_id": "movieappsherezade",
+    "storage_bucket": "movieappsherezade.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112107707474:android:8acae17a971612239d138b",
+        "android_client_info": {
+          "package_name": "com.example.movieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112107707474-0al1s9k621ovn3vu0rv2c88bldsd9cb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movieapp",
+            "certificate_hash": "3874537afc36d080414b69b018225015fc983440"
+          }
+        },
+        {
+          "client_id": "112107707474-cs6bd93flhk5uousrcejv37om7tdgkrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhS_mtaiIq5I4U1vF051E633OuVrcy6m8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112107707474-cs6bd93flhk5uousrcejv37om7tdgkrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

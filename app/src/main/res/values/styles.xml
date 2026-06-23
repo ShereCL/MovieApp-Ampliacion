@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomNavTextActive" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="BottomNavTextInactive" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <!-- Este estilo es el que hace que no salga el icono en el menu de navegacion superior -->
+    <style name="Widget.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconSize">0dp</item>
+        <item name="itemIconTint">@android:color/transparent</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <!-- Estilo de la toolbar -->
+
+    <style name="ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/textoToolbar</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- bloquea el color de sombra de detras de cad icono del menu -->
+    <style name="BottomNavWithoutIndicator" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemActiveIndicatorStyle">@null</item>
+    </style>
+</resources>
